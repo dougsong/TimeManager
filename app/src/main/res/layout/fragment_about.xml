@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.songzheng.timemanager.fragments.AboutFragment">
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="作者：Zheng.Song"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="邮箱：songzheng2016@126.com"
+        android:layout_below="@id/tv_author"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_csdn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="CSDN：http://blog.csdn.net/qq_32651225"
+        android:gravity="center"
+        android:layout_below="@id/tv_email"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/github"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="GitHub：https://github.com/songzheng1997"
+        android:gravity="center"
+        android:layout_below="@id/tv_csdn"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/et_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/github"
+        android:hint="反馈"
+        android:gravity="top"
+        android:lines="10"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/bt_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/et_feedback"
+        android:text="反馈"
+        />
+
+</RelativeLayout>

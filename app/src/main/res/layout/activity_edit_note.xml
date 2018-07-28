@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5252">
+
+        <TextView
+            android:id="@+id/tv_edit_note_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:text="完成"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:text="新笔记"
+            android:textColor="#FFF"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_edit_note_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:text="取消"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#E4E4E4" />
+
+    <EditText
+        android:id="@+id/et_edit_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:hint="标题"
+        android:textColorHint="#AAAAAA"/>
+
+    <EditText
+        android:id="@+id/et_edit_note_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="开始书写"
+        android:textColorHint="#AAAAAA"
+        android:gravity="top|left"
+        android:padding="0dp"
+        android:background="@null"/>
+
+</LinearLayout>

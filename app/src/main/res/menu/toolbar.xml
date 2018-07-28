@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/remind_message"
+        android:icon="@drawable/clock"
+        android:title="提醒"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/search_message"
+        android:icon="@drawable/search"
+        android:title="搜索"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/settings_message"
+        android:icon="@drawable/ic_settings"
+        android:title="设置"
+        app:showAsAction="never"/>
+</menu>

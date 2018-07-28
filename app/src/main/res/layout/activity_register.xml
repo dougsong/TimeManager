@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20A647">
+
+    <ImageView
+        android:id="@+id/iv_register_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_register_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/et_register_username"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_register_title"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="15sp"
+        android:hint="注册用户名"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_below="@id/et_register_username"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:hint="密码"
+        android:gravity="center"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/et_register_name"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_below="@id/et_register_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:hint="姓名"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_register_email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_below="@id/et_register_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:hint="电子邮箱"
+        android:gravity="center"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/et_register_phone"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_below="@id/et_register_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:hint="电话号码"
+        android:gravity="center"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et_register_phone"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="注册" />
+
+</RelativeLayout>
