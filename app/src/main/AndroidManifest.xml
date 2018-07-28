@@ -36,7 +36,7 @@
         <activity android:name=".activities.EditNoteActivity" />
         <activity android:name=".activities.AddListGroupActivity" />
         <activity android:name=".activities.TaskActivity" />
-        <activity android:name=".activities.ListGroupActivity"></activity>
+        <activity android:name=".activities.ListGroupActivity" />
     </application>
 
 </manifest>
